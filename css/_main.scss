@@ -1,0 +1,550 @@
+$button_color: #74828f;
+$font-family: 'Esteban', sans-serif;
+
+.main {
+    //background-color: #E8F1F2;
+    @import '_Our-history.scss';
+    @import '_Repairing.scss';
+    @import '_Gallery.scss';
+    @import '_faq-style';
+    @import '_Contact.scss';
+    @import '_Custom-design.scss';
+    @import '_Policies.scss';
+    
+    .features {
+        .carousel {
+            .carousel-item {
+                height: 40vh;
+                img {
+                    width:100%;
+                    height:100%;
+                    position: absolute;
+                    padding-top: 60px;
+                    background-color: transparent;
+                    background-image: linear-gradient(180deg, #ffffff 0%, rgba(255,255,255,0.77) 100%);
+                    opacity: 0.9;
+                }
+            }
+        }
+    }
+
+    .about-us {
+        padding: 5px 0;
+       
+        .container {
+            p{
+                font-size: 1 rem;
+            }
+            .title {
+                text-align: center;
+                margin-bottom: 20px;
+                padding-top: 10px;
+                h2 {
+                    font-size: 32px;
+                    font-weight: 400;
+                    line-height: 1.2;
+                    font-family: $font-family;
+                }
+            }
+            .photo {
+                img {
+                    width: 100%;
+                    border-radius: 10px;
+                }
+            }
+            .text {
+                p {
+                    text-align: justify;
+                    font-weight: 300;
+                    color: 18px;
+                    span {
+                        font-style: italic;
+                        font-weight: 700;
+                    }
+                }
+            }
+            .a{
+                text-decoration: none;
+            }
+            .button {
+                text-align: center;
+            }
+            button {
+                border: 1px solid $button_color;
+                color: $button_color;
+                transition: 0.3s linear;
+                &:hover {
+                    background: #a7bbce;
+                    color: #ffffff;
+                }
+            }
+            i {
+                margin-left: 7px;
+                font-size: 14px;
+            }
+        }
+    }
+
+    
+    
+    .we-belive {
+        padding: 10px 0;
+        background-color: white;
+        .container {
+            .title {
+                text-align: center;
+                margin-bottom: 38px;
+                padding-top:10px;
+                h2 {
+                    font-size: 32px;
+                    font-family: $font-family;
+                }
+            }
+            .photo {
+                img {
+                    width: 100%;
+                    border-radius: 10px;
+                    max-height: 304px;
+                    margin-bottom: 20px;
+
+                }
+            }
+            .a{
+                text-decoration: none;
+            }
+            .button {
+                text-align: center;
+            }
+            button {
+                border: 1px solid $button_color;
+                color: $button_color;
+                transition: 0.3s linear;
+                &:hover {
+                    background: #a7bbce;
+                    color: #ffffff;
+                }
+            }
+            i {
+                margin-left: 10px;
+                font-size: 14px;
+            }
+        }
+    }
+
+    .ourProcess {
+        padding: 5px 0;
+        
+        .container{
+            .row{
+                .title {
+                    text-align: center;
+                    margin-bottom: 20px;
+                    padding-top:10px;
+                    h2 {
+                      
+                        font-family: $font-family;
+                    }
+                }
+            }
+            
+            .mainRow{
+                
+                img{
+                    width: 100px;
+                    height: auto;
+                    display:block;
+                    margin:auto;
+                }
+                .logo{
+                    margin-top: 40px;
+                    height: 80px;
+                    width: auto;
+                }
+                .arrow{
+                    overflow:hidden;
+                    display:none;
+                }
+            }
+        }   
+    }
+   
+   
+    .reviews {
+        padding: 20px 0;
+        background-color: white;
+        
+        .container {
+            margin-top: 0px;
+            
+            .card-main {
+                text-align: center;
+                border-radius: 10px;
+                margin-bottom: 0px;
+                font-family: $font-family;
+                border: 0px;
+                
+                h2{
+                    font-family: $font-family;
+                    margin:0px 30px 0px 30px;
+                }
+                .line{
+                    width: 6%;
+                    justify-self: center;
+                    background-color: #8f9190;
+                     height: 1px;
+                }
+                
+                .line-1{
+                    width: 4%;
+                    justify-self: center;
+                    background-color: #8f9190;
+                     height: 1px;    
+                }
+                
+                .line-2{
+                    width: 2%;
+                    justify-self: center;
+                    background-color: #8f9190;
+                    height: 1px;    
+                }
+                
+                .testimonials {
+                    justify-content: center;
+                    
+
+                    .owl-item{
+                        width:400px ;
+                    }
+                    
+                    .owl-carousel img {
+                        width: 100px;
+                        display: block;
+                        width: 100%;
+                    }
+                    
+                    .owl-theme .owl-controls {
+                        position: absolute;
+                        top: 0;
+                        right: 20px;
+                    }
+                    
+                    .owl-theme .owl-controls .owl-buttons div {
+                        position: relative;
+                        top: -50px;
+                    }
+                    
+                    .owl-prev:before,
+                    .owl-next:before {  
+                        font-family: FontAwesome;
+                        content: "\f060";
+                        font-size: 18px;
+                    }
+
+                    .owl-next:before {
+                        content : "\f061";
+                    }
+
+                    #quotes {
+                        opacity: 0.3;
+                        width: 50%;
+                        height: auto;
+                    }
+
+                    .testimonial {
+                        display: flex;
+                        padding-left:10px;
+                        padding-right: 10px;
+                        width: 340px;
+                        height: 470px;
+                        .card {
+                            margin: 0.5rem 0.5rem;
+                            box-shadow: 1px 1px 2px 1px #061262;
+                           
+                            h5{
+                                font-family: $font-family;
+                                text-align: center
+                                
+                            }
+                            p{
+                            text-align: justify;
+                            }
+                        
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    .main{
+        .features {
+            .carousel {
+                .carousel-item {
+                    height: 45vh;
+                    img {
+                        padding-top:60px;
+                    
+                    }
+                }
+            }
+        }
+        .we-belive {
+            padding-top: 0px;
+            background-color: white;
+            
+        }
+        .ourProcess {
+            padding: 5px 0;
+            .container{
+                margin-top:20px;
+                .mainRow{
+                    .p1{
+                        margin-top:40px;
+                    }
+                    .p2{
+                        margin-top:15px;
+                    }
+                    .p3{
+                        margin-top:15px;
+                    }
+                    img{
+                        width: 100px;
+                        height: auto;
+                        display:block;
+                        margin:auto;
+                    }
+                    .mail-img{
+                        margin-top: 30px;
+                    }
+                    .sketch{
+                        margin-top:40px;
+                    }
+                    .logo{
+                        margin-top: 45px;
+                        height: 80px;
+                        width: auto;
+                    }
+                    .arrow{
+                        overflow:hidden;
+                        display:none;
+                    }
+                }
+            }   
+        }
+       
+        .reviews {
+            .container {
+                .card-main {
+                    .testimonials {
+
+                        .owl-carousel img {
+                            width: 150px;  
+                        }
+    
+                        .testimonial {
+                            width: 480px;
+                            height: 430px;
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}   
+// Medium devices (tablets, 870px and up)
+
+@media (min-width: 870px) { 
+    .main { 
+        .features {
+            .carousel {
+                .carousel-item {
+                    height: 50vh;
+                }
+            }
+        }
+        .ourProcess {
+            padding: 5px 0;
+            .container{
+                margin-top:20px;
+                .mainRow{
+                    .p1{
+                        margin-top:60px;
+                    }
+                    .p3{
+                        margin-top:30px;
+                    }
+                    img{
+                        width: 100px;
+                        height: auto;
+                        display:block;
+                        margin:auto;
+                    }
+                    .mail-img{
+                        margin-top: 20px;
+                    }
+                    .sketch{
+                        margin-top: 50px;
+                    }
+                    .logo{
+                        margin-top: 20px;
+                        height: 80px;
+                        width: auto;
+                    }
+                    .arrow{
+                        overflow:visible;
+                        display:contents;
+                    }
+                }
+            }   
+        }
+       
+        .reviews {
+            .container {
+                .card-main {
+                    padding: 0px 20px 10px 20px;
+                    margin-bottom: 30px;
+                        
+                    .testimonials {
+                        
+                        .owl-carousel img {
+                            width: 100px;
+                        }
+                        
+                        .testimonial {
+                            width: 300px;
+                            height: 470px;
+                            
+                        }
+                        
+                    }   
+                }
+            }
+        }   
+    } 
+}
+
+// Large devices (desktops, 992px and up)
+@media  (min-width: 992px) { 
+    .main {
+        .features {
+            .carousel {
+                .carousel-item {
+                    height: 50vh;
+                    img {
+                        padding-top:100px;
+                    }
+                }
+            }
+        }
+        .about-us {
+            padding: 32px 0;              
+        }
+        .ourProcess {
+            padding: 5px 0;
+            
+            .container{
+                .row{
+                    .title {
+                        text-align: center;
+                        margin-bottom: 20px;
+                        padding-top:10px;
+                        h2 {
+                          
+                            font-family: $font-family;
+                        }
+                    }
+                }
+                
+                .mainRow{
+                    .p1{
+                        margin-top:40px;
+                    }
+                    .p3{
+                        margin-top:35px;
+                    }
+                    img{
+                        width: 100px;
+                        height: auto;
+                        display:block;
+                        margin:auto;
+                    }
+                    .mail-img{
+                        margin-top: 37px;
+                    }
+                    .logo{
+                        margin-top: 60px;
+                        height: 80px;
+                        width: auto;
+                    }
+                    .arrow{
+                        overflow:visible;
+                        display:contents;
+                    }
+                }
+            }   
+        }
+        .reviews {
+            .container {
+                margin-top: 36px;
+                .card-main {
+                    padding: 0px 30px 20px 30px;
+                    margin-bottom: 30px;
+                    .testimonials {
+                        .owl-carousel img {
+                            width: 100px;
+                        }
+                        .testimonial {
+                            width: 300px;
+                            height: 470px;
+                        }
+                    }
+    
+                }
+            }
+        }    
+    } 
+}
+ 
+
+// Extra large devices (large desktops, 1200px and up)
+@media  (min-width: 1200px) { 
+    .main {
+        .features {
+            .carousel {
+                .carousel-item {
+                    height: 120vh;
+                    img {
+                        padding-top:120px;
+                    }
+                }
+            }
+        }
+        .reviews {
+            padding: 32px 0;
+          
+            .container {
+                margin-top: 36px;
+                
+                .card-main {
+                
+                    padding: 0px 30px 20px 30px;
+                    margin-bottom: 30px;
+                    
+                    .testimonials {
+                                                 
+                        .testimonial {
+                           
+                            width: 355px;
+                            height: 455px;
+                           
+                        }
+                    }
+                }
+            }  
+        }  
+    }
+}

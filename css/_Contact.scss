@@ -1,0 +1,123 @@
+*{
+    font-family: 'Monserrat', sans-serif;
+    color: #011b1e;
+}
+
+$black: #000000;
+$white: #ffffff;
+$red: #8f0202;
+$button_color: #74828f;
+$border:0px;
+$font-family:'Esteban', sans-serif;
+
+.underlanding-row{
+    .container{
+        text-align: center;
+        .row{
+            flex-direction: column;
+            justify-content: center;
+            .title {
+                text-align: center;
+                padding-bottom: 5px;
+                
+                h2 {
+                    font-size: 32px;
+                    font-family: 'Esteban', sans-serif;
+                }
+            }
+            .text{
+                p{
+                    max-width: 730px;
+                    margin: 0 auto 15px;
+                }
+            }
+        }
+    }
+}
+
+.contact-form {
+    
+    .form-contact {
+        padding: 0px 0 38px 0;  
+        address {
+            text-align: center;
+            padding: 0px 50px;
+            top: 60px;
+            h5 {
+                font-weight: 600;
+                margin-bottom: 20px;
+            }
+            .address {
+                line-height: 10px;
+                margin-bottom: 50px;
+                font-style: italic;
+            }
+            .schedule {
+                text-align: center;
+                justify-content: space-between;
+                padding: 0 50px;
+                span {
+                    font-weight: 600;
+                    font-style: italic;
+                }
+                .schedule_weekend {
+                    padding: 0 30px;
+                    text-align: center;
+                    justify-content: space-between;
+                }
+            }
+        }
+
+        form {
+            padding: 60px 30px 0px 30px;
+            p {
+                margin-bottom: 0;
+                text-align: end;
+                color: $red;
+                font-size: 12px;
+                
+            }
+            label {
+                font-weight: 600;
+            }
+            span {
+                color: $red;
+            }
+            textarea {
+                min-height: 100px;
+            }
+        }
+        .button {
+            text-align: center;
+        }
+        button {
+            border: 1px solid $button_color;
+            color: $button_color;
+            transition: 0.3s linear;
+            &:hover {
+                border: 1px solid $button_color;
+                background: #a7bbce;
+                color: #ffffff;
+            }
+        }
+    }
+}
+
+.map{
+    .container{
+        iframe{
+            border-radius: 15px;
+            margin-bottom: 32px;
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .contact-form {
+        .form-contact {
+            address {
+                padding: 0px;
+            }
+        }
+    }
+}

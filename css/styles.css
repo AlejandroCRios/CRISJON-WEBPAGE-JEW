@@ -1,0 +1,1520 @@
+* {
+  font-family: 'Monserrat', sans-serif;
+}
+
+header {
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+header .logo {
+  text-align: center;
+  line-height: 40px;
+  padding-top: 10px;
+}
+
+header .logo img {
+  width: 120px;
+}
+
+header .logo p {
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+header .navbar .button {
+  text-align: right;
+}
+
+header .navbar li {
+  padding-left: 15px;
+}
+
+header .container nav {
+  padding: 0px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .container nav .phone {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .container nav .phone p {
+  margin: 10px 0px 0px 20px;
+  font-size: 14px;
+}
+
+header .container nav .collapse {
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .container nav .collapse .navbar-toggler {
+  margin-left: 100px;
+}
+
+header .container nav .collapse .nav-item {
+  margin-left: 15px;
+  margin-top: 40px;
+}
+
+header .container nav .collapse .dropdown-menu {
+  position: absolute;
+  top: 30px;
+}
+
+header .container nav .collapse li {
+  list-style-type: none;
+}
+
+header .container nav .collapse li .nav-link {
+  color: #000000;
+  padding-right: 10px;
+  font-size: 16px;
+}
+
+header .container nav .collapse li .nav-link:hover {
+  text-decoration: underline;
+  color: #000000;
+}
+
+header .container nav .collapse a:hover {
+  text-decoration: underline;
+  color: #000000;
+}
+
+header .container nav .phone {
+  text-align: center;
+}
+
+header .container nav .contact {
+  text-align: center;
+}
+
+header .container nav .contact a {
+  margin: 0 10px;
+}
+
+header .container nav .contact a i {
+  color: #000000;
+}
+
+@media (max-width: 991px) {
+  header .container nav .collapse .nav-item {
+    margin-top: 0px;
+  }
+  header .container nav .collapse .dropdown-menu {
+    position: static;
+    float: none;
+  }
+}
+
+.main * {
+  font-family: 'Monserrat', sans-serif;
+  color: #011b1e;
+}
+
+.main .first-row {
+  padding: 32px 0px 10px 0px;
+  background: #ffffff;
+}
+
+.main .first-row .container p {
+  font-size: 1 rem;
+}
+
+.main .first-row .container .title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.main .first-row .container .title h2 {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.2;
+  font-family: 'Esteban', serif;
+}
+
+.main .first-row .container .photo img {
+  width: 100%;
+  border-radius: 10px;
+  max-height: 304px;
+}
+
+.main .first-row .container .text p {
+  text-align: justify;
+  font-weight: 300;
+  color: 18px;
+}
+
+.main .first-row .container .text p span {
+  font-style: italic;
+  font-weight: 700;
+}
+
+.main .first-row .container .button {
+  text-align: center;
+}
+
+.main .first-row .container button {
+  border: 1px solid #74828f;
+  color: #74828f;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+.main .first-row .container button:hover {
+  background: #a7bbce;
+  color: #ffffff;
+}
+
+.main .first-row .container i {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.main .second-row {
+  padding: 10px 0;
+  background: #ffffff;
+}
+
+.main .second-row .container .title {
+  text-align: center;
+  margin-bottom: 38px;
+}
+
+.main .second-row .container .title h2 {
+  font-size: 32px;
+}
+
+.main .second-row .container .photo img {
+  width: 100%;
+  border-radius: 10px;
+  max-height: 304px;
+}
+
+.main .second-row .container .text {
+  padding-top: 20px;
+}
+
+.main .second-row .container .text p {
+  font-weight: 300;
+  color: 18px;
+  text-align: justify;
+}
+
+.main .second-row .container .text p span {
+  font-style: italic;
+  font-weight: 700;
+}
+
+.main .second-row .container .button {
+  text-align: center;
+}
+
+.main .second-row .container button {
+  border: 1px solid #74828f;
+  color: #74828f;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+.main .second-row .container button:hover {
+  background: #a7bbce;
+  color: #ffffff;
+}
+
+.main .second-row .container i {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.main .Repairing-jewelry {
+  padding: 0px;
+  background: #ffffff;
+}
+
+.main .Repairing-jewelry .container p {
+  font-size: 1 rem;
+}
+
+.main .Repairing-jewelry .container .title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.main .Repairing-jewelry .container .title h2 {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.2;
+  font-family: "Esteban", sans-serif;
+}
+
+.main .Repairing-jewelry .container .text p {
+  text-align: justify;
+  font-weight: 300;
+  color: 18px;
+}
+
+.main .Repairing-jewelry .container .text p span {
+  font-style: italic;
+  font-weight: 700;
+}
+
+.main .Repairing-jewelry .container .a {
+  text-decoration: none;
+}
+
+.main .Repairing-jewelry .container .button {
+  text-align: center;
+}
+
+.main .Repairing-jewelry .container button {
+  border: 1px solid #74828f;
+  color: #74828f;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+.main .Repairing-jewelry .container button:hover {
+  background: #a7bbce;
+  color: #ffffff;
+}
+
+.main .Repairing-jewelry .container i {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.main .Repairing-jewelry .container .photo img {
+  width: 100%;
+  border-radius: 10px;
+  max-height: 500px;
+  margin-bottom: 20px;
+}
+
+.main .our-services {
+  padding: 32px 0;
+  background: #ffffff;
+}
+
+.main .our-services .container .text .title {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 0px;
+}
+
+.main .our-services .container .text .title h2 {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.2;
+  font-family: "Esteban", sans-serif;
+}
+
+.main .our-services .container .text p {
+  text-align: justify;
+  font-weight: 300;
+  font-size: 1 rem;
+}
+
+.main .our-services .container .text p span {
+  font-style: italic;
+  font-weight: 700;
+}
+
+.main .our-services .container .a {
+  text-decoration: none;
+}
+
+.main .our-services .container .button {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.main .our-services .container button {
+  border: 1px solid #74828f;
+  color: #74828f;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+.main .our-services .container button:hover {
+  background: #a7bbce;
+  color: #ffffff;
+}
+
+.main .our-services .container i {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.main .our-services .container .photo img {
+  width: 100%;
+  border-radius: 10px;
+  max-height: 500px;
+  margin-bottom: 20px;
+}
+
+.main .our-services .container .embed-responsive .embed-responsive-item {
+  border-radius: 10px;
+}
+
+@media (min-width: 992px) {
+  .main .Repairing-jewelry {
+    padding: 32px 0;
+    background: #ffffff;
+  }
+  .main .Repairing-jewelry .container p {
+    font-size: 1 rem;
+  }
+  .main .Repairing-jewelry .container .title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .main .Repairing-jewelry .container .title h2 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.2;
+    font-family: "Esteban", sans-serif;
+  }
+  .main .Repairing-jewelry .container .text p {
+    text-align: justify;
+    font-weight: 300;
+    color: 18px;
+  }
+  .main .Repairing-jewelry .container .text p span {
+    font-style: italic;
+    font-weight: 700;
+  }
+  .main .Repairing-jewelry .container .a {
+    text-decoration: none;
+  }
+  .main .Repairing-jewelry .container .button {
+    text-align: center;
+  }
+  .main .Repairing-jewelry .container button {
+    border: 1px solid #74828f;
+    color: #74828f;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+  }
+  .main .Repairing-jewelry .container button:hover {
+    background: #a7bbce;
+    color: #ffffff;
+  }
+  .main .Repairing-jewelry .container i {
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  .main .Repairing-jewelry .container .photo img {
+    width: 100%;
+    border-radius: 10px;
+    max-height: 500px;
+    margin-bottom: 20px;
+  }
+  .main .our-services {
+    padding: 32px 0;
+    background: #ffffff;
+  }
+  .main .our-services .container .text .title {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 0px;
+  }
+  .main .our-services .container .text .title h2 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.2;
+    font-family: "Esteban", sans-serif;
+  }
+  .main .our-services .container .text p {
+    text-align: justify;
+    font-weight: 300;
+    font-size: 1 rem;
+  }
+  .main .our-services .container .text p span {
+    font-style: italic;
+    font-weight: 700;
+  }
+  .main .our-services .container .a {
+    text-decoration: none;
+  }
+  .main .our-services .container .button {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .main .our-services .container button {
+    border: 1px solid #74828f;
+    color: #74828f;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+  }
+  .main .our-services .container button:hover {
+    background: #a7bbce;
+    color: #ffffff;
+  }
+  .main .our-services .container i {
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  .main .our-services .container .photo img {
+    width: 100%;
+    border-radius: 10px;
+    max-height: 500px;
+    margin-bottom: 60px;
+  }
+}
+
+.main * {
+  font-family: 'Monserrat', sans-serif;
+  color: #011b1e;
+}
+
+.main .first-row-gallery {
+  background: #ffffff;
+}
+
+.main .first-row-gallery .container p {
+  font-size: 1 rem;
+}
+
+.main .first-row-gallery .container .title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.main .first-row-gallery .container .title h2 {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.2;
+  font-family: 'Esteban', serif;
+}
+
+.main .first-row-gallery .container .photo img {
+  width: 100%;
+  margin: 10px;
+  border-radius: 10px;
+  opacity: 70%;
+}
+
+.main .first-row-gallery .container .photo img:hover {
+  opacity: 100%;
+}
+
+.main .first-row-gallery .container .modal button {
+  border: 1px solid #74828f;
+  color: #74828f;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+.main .first-row-gallery .container .modal button:hover {
+  background: #a7bbce;
+  color: #ffffff;
+}
+
+.main .first-row-gallery .container .button {
+  color: #74828f;
+  text-align: center;
+  margin: 30px 0px;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+.main .first-row-gallery .container .button i {
+  color: #17a2b8;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.main .first-row-gallery .container .button:hover {
+  color: #ffffff;
+}
+
+.main .first-row-gallery .container .button:hover i {
+  color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .main .main {
+    background-color: #E8F1F2;
+  }
+  .main .main .features .carousel .carousel-item {
+    height: 60vh;
+  }
+  .main .main .features .carousel .carousel-item img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding-top: 10px;
+    background-color: transparent;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(rgba(255, 255, 255, 0.77)));
+    background-image: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0.77) 100%);
+    opacity: 0.9;
+    -webkit-transition: background-color 0.3s, border-radius 0.3s, opacity 0.3s;
+    transition: background-color 0.3s, border-radius 0.3s, opacity 0.3s;
+  }
+}
+
+@media (min-width: 992px) {
+  .main .main .features .carousel .carousel-item {
+    height: 65vh;
+  }
+  .main .main .features .carousel .carousel-item img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding-top: 10px;
+    background-color: transparent;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(rgba(255, 255, 255, 0.77)));
+    background-image: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0.77) 100%);
+    opacity: 0.9;
+    -webkit-transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main .main .features .carousel .carousel-item {
+    height: 100vh;
+  }
+  .main .main .features .carousel .carousel-item img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding-top: 10px;
+    background-color: transparent;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(rgba(255, 255, 255, 0.77)));
+    background-image: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0.77) 100%);
+    opacity: 0.9;
+    -webkit-transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  }
+}
+
+.main * {
+  font-family: 'Monserrat', sans-serif;
+  color: #011b1e;
+}
+
+.main .title {
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 40px;
+}
+
+.main .title h2 {
+  font-size: 32px;
+  font-family: 'Esteban', sans-serif;
+}
+
+.main * {
+  font-family: 'Monserrat', sans-serif;
+  color: #011b1e;
+}
+
+.main .underlanding-row .container {
+  text-align: center;
+}
+
+.main .underlanding-row .container .row {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .underlanding-row .container .row .title {
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.main .underlanding-row .container .row .title h2 {
+  font-size: 32px;
+  font-family: 'Esteban', sans-serif;
+}
+
+.main .underlanding-row .container .row .text p {
+  max-width: 730px;
+  margin: 0 auto 15px;
+}
+
+.main .contact-form .form-contact {
+  padding: 0px 0 38px 0;
+}
+
+.main .contact-form .form-contact address {
+  text-align: center;
+  padding: 0px 50px;
+  top: 60px;
+}
+
+.main .contact-form .form-contact address h5 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.main .contact-form .form-contact address .address {
+  line-height: 10px;
+  margin-bottom: 50px;
+  font-style: italic;
+}
+
+.main .contact-form .form-contact address .schedule {
+  text-align: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 50px;
+}
+
+.main .contact-form .form-contact address .schedule span {
+  font-weight: 600;
+  font-style: italic;
+}
+
+.main .contact-form .form-contact address .schedule .schedule_weekend {
+  padding: 0 30px;
+  text-align: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main .contact-form .form-contact form {
+  padding: 60px 30px 0px 30px;
+}
+
+.main .contact-form .form-contact form p {
+  margin-bottom: 0;
+  text-align: end;
+  color: #8f0202;
+  font-size: 12px;
+}
+
+.main .contact-form .form-contact form label {
+  font-weight: 600;
+}
+
+.main .contact-form .form-contact form span {
+  color: #8f0202;
+}
+
+.main .contact-form .form-contact form textarea {
+  min-height: 100px;
+}
+
+.main .contact-form .form-contact .button {
+  text-align: center;
+}
+
+.main .contact-form .form-contact button {
+  border: 1px solid #74828f;
+  color: #74828f;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+.main .contact-form .form-contact button:hover {
+  border: 1px solid #74828f;
+  background: #a7bbce;
+  color: #ffffff;
+}
+
+.main .map .container iframe {
+  border-radius: 15px;
+  margin-bottom: 32px;
+}
+
+@media (max-width: 1000px) {
+  .main .contact-form .form-contact address {
+    padding: 0px;
+  }
+}
+
+.main * {
+  font-family: 'Monserrat', sans-serif;
+  color: #011b1e;
+}
+
+.main .underlanding-row .container {
+  text-align: center;
+}
+
+.main .underlanding-row .container .row {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .underlanding-row .container .row .title {
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 40px;
+}
+
+.main .underlanding-row .container .row .title h2 {
+  font-size: 32px;
+  font-family: "Esteban", sans-serif;
+}
+
+.main .underlanding-row .container .row .text p {
+  max-width: 730px;
+  margin: 0 auto 15px;
+}
+
+.main .content {
+  padding: 20px 0;
+  background: #ffffff;
+}
+
+.main .content .container .photo img {
+  width: 100%;
+  border-radius: 10px;
+  max-height: 304px;
+}
+
+.main .content .container .text .title {
+  padding-top: 0px !important;
+  text-align: center;
+  font-family: 'Esteban', sans-serif;
+}
+
+.main .content .container .text .title h3 {
+  font-family: "Esteban", sans-serif;
+}
+
+.main .content .container .text p {
+  font-weight: 300;
+  color: 18px;
+  text-align: justify;
+}
+
+.main .content .container .text p span {
+  font-style: italic;
+  font-weight: 700;
+}
+
+.main .content .container .button {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.main .content .container button {
+  border: 1px solid #74828f;
+  color: #74828f;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+.main .content .container button:hover {
+  background: #a7bbce;
+  color: #ffffff;
+}
+
+.main .content .container i {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+@media (min-width: 1200px) {
+  .main .content {
+    padding: 20px 0;
+    background: #ffffff;
+    margin-bottom: 50px;
+  }
+  .main .content .container .photo img {
+    width: 100%;
+    border-radius: 10px;
+    max-height: 304px;
+  }
+  .main .content .container .text .title {
+    text-align: center;
+    font-family: 'Esteban', sans-serif;
+  }
+  .main .content .container .text p {
+    font-weight: 300;
+    color: 18px;
+    text-align: justify;
+  }
+  .main .content .container .text p span {
+    font-style: italic;
+    font-weight: 700;
+  }
+  .main .content .container .button {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .main .content .container button {
+    border: 1px solid #74828f;
+    color: #74828f;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+  }
+  .main .content .container button:hover {
+    background: #a7bbce;
+    color: #ffffff;
+  }
+  .main .content .container i {
+    margin-left: 10px;
+    font-size: 14px;
+  }
+}
+
+.main * {
+  font-family: 'Monserrat', sans-serif;
+  color: #011b1e;
+}
+
+.main .texts {
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+.main .texts h3 {
+  text-align: center;
+  font-family: "Esteban", sans-serif;
+}
+
+@media (max-width: 590px) {
+  .main .texts {
+    margin-top: 90px;
+    padding: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .main .texts {
+    margin-top: 130px;
+    margin-bottom: 50px;
+  }
+  .main .texts h3 {
+    text-align: inherit;
+    padding: 20px 20px 20px 0px;
+  }
+}
+
+.main .features .carousel .carousel-item {
+  height: 40vh;
+}
+
+.main .features .carousel .carousel-item img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  padding-top: 60px;
+  background-color: transparent;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(rgba(255, 255, 255, 0.77)));
+  background-image: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0.77) 100%);
+  opacity: 0.9;
+}
+
+.main .about-us {
+  padding: 5px 0;
+}
+
+.main .about-us .container p {
+  font-size: 1 rem;
+}
+
+.main .about-us .container .title {
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 10px;
+}
+
+.main .about-us .container .title h2 {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.2;
+  font-family: "Esteban", sans-serif;
+}
+
+.main .about-us .container .photo img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.main .about-us .container .text p {
+  text-align: justify;
+  font-weight: 300;
+  color: 18px;
+}
+
+.main .about-us .container .text p span {
+  font-style: italic;
+  font-weight: 700;
+}
+
+.main .about-us .container .a {
+  text-decoration: none;
+}
+
+.main .about-us .container .button {
+  text-align: center;
+}
+
+.main .about-us .container button {
+  border: 1px solid #74828f;
+  color: #74828f;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+.main .about-us .container button:hover {
+  background: #a7bbce;
+  color: #ffffff;
+}
+
+.main .about-us .container i {
+  margin-left: 7px;
+  font-size: 14px;
+}
+
+.main .we-belive {
+  padding: 10px 0;
+  background-color: white;
+}
+
+.main .we-belive .container .title {
+  text-align: center;
+  margin-bottom: 38px;
+  padding-top: 10px;
+}
+
+.main .we-belive .container .title h2 {
+  font-size: 32px;
+  font-family: "Esteban", sans-serif;
+}
+
+.main .we-belive .container .photo img {
+  width: 100%;
+  border-radius: 10px;
+  max-height: 304px;
+  margin-bottom: 20px;
+}
+
+.main .we-belive .container .a {
+  text-decoration: none;
+}
+
+.main .we-belive .container .button {
+  text-align: center;
+}
+
+.main .we-belive .container button {
+  border: 1px solid #74828f;
+  color: #74828f;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+.main .we-belive .container button:hover {
+  background: #a7bbce;
+  color: #ffffff;
+}
+
+.main .we-belive .container i {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.main .ourProcess {
+  padding: 5px 0;
+}
+
+.main .ourProcess .container .row .title {
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 10px;
+}
+
+.main .ourProcess .container .row .title h2 {
+  font-family: "Esteban", sans-serif;
+}
+
+.main .ourProcess .container .mainRow img {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.main .ourProcess .container .mainRow .logo {
+  margin-top: 40px;
+  height: 80px;
+  width: auto;
+}
+
+.main .ourProcess .container .mainRow .arrow {
+  overflow: hidden;
+  display: none;
+}
+
+.main .reviews {
+  padding: 20px 0;
+  background-color: white;
+}
+
+.main .reviews .container {
+  margin-top: 0px;
+}
+
+.main .reviews .container .card-main {
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 0px;
+  font-family: "Esteban", sans-serif;
+  border: 0px;
+}
+
+.main .reviews .container .card-main h2 {
+  font-family: "Esteban", sans-serif;
+  margin: 0px 30px 0px 30px;
+}
+
+.main .reviews .container .card-main .line {
+  width: 6%;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  background-color: #8f9190;
+  height: 1px;
+}
+
+.main .reviews .container .card-main .line-1 {
+  width: 4%;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  background-color: #8f9190;
+  height: 1px;
+}
+
+.main .reviews .container .card-main .line-2 {
+  width: 2%;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  background-color: #8f9190;
+  height: 1px;
+}
+
+.main .reviews .container .card-main .testimonials {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .reviews .container .card-main .testimonials .owl-item {
+  width: 400px;
+}
+
+.main .reviews .container .card-main .testimonials .owl-carousel img {
+  width: 100px;
+  display: block;
+  width: 100%;
+}
+
+.main .reviews .container .card-main .testimonials .owl-theme .owl-controls {
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+
+.main .reviews .container .card-main .testimonials .owl-theme .owl-controls .owl-buttons div {
+  position: relative;
+  top: -50px;
+}
+
+.main .reviews .container .card-main .testimonials .owl-prev:before,
+.main .reviews .container .card-main .testimonials .owl-next:before {
+  font-family: FontAwesome;
+  content: "\f060";
+  font-size: 18px;
+}
+
+.main .reviews .container .card-main .testimonials .owl-next:before {
+  content: "\f061";
+}
+
+.main .reviews .container .card-main .testimonials #quotes {
+  opacity: 0.3;
+  width: 50%;
+  height: auto;
+}
+
+.main .reviews .container .card-main .testimonials .testimonial {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 340px;
+  height: 470px;
+}
+
+.main .reviews .container .card-main .testimonials .testimonial .card {
+  margin: 0.5rem 0.5rem;
+  -webkit-box-shadow: 1px 1px 2px 1px #061262;
+          box-shadow: 1px 1px 2px 1px #061262;
+}
+
+.main .reviews .container .card-main .testimonials .testimonial .card h5 {
+  font-family: "Esteban", sans-serif;
+  text-align: center;
+}
+
+.main .reviews .container .card-main .testimonials .testimonial .card p {
+  text-align: justify;
+}
+
+@media (min-width: 576px) {
+  .main .features .carousel .carousel-item {
+    height: 45vh;
+  }
+  .main .features .carousel .carousel-item img {
+    padding-top: 60px;
+  }
+  .main .we-belive {
+    padding-top: 0px;
+    background-color: white;
+  }
+  .main .ourProcess {
+    padding: 5px 0;
+  }
+  .main .ourProcess .container {
+    margin-top: 20px;
+  }
+  .main .ourProcess .container .mainRow .p1 {
+    margin-top: 40px;
+  }
+  .main .ourProcess .container .mainRow .p2 {
+    margin-top: 15px;
+  }
+  .main .ourProcess .container .mainRow .p3 {
+    margin-top: 15px;
+  }
+  .main .ourProcess .container .mainRow img {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  .main .ourProcess .container .mainRow .mail-img {
+    margin-top: 30px;
+  }
+  .main .ourProcess .container .mainRow .sketch {
+    margin-top: 40px;
+  }
+  .main .ourProcess .container .mainRow .logo {
+    margin-top: 45px;
+    height: 80px;
+    width: auto;
+  }
+  .main .ourProcess .container .mainRow .arrow {
+    overflow: hidden;
+    display: none;
+  }
+  .main .reviews .container .card-main .testimonials .owl-carousel img {
+    width: 150px;
+  }
+  .main .reviews .container .card-main .testimonials .testimonial {
+    width: 480px;
+    height: 430px;
+  }
+}
+
+@media (min-width: 870px) {
+  .main .features .carousel .carousel-item {
+    height: 50vh;
+  }
+  .main .ourProcess {
+    padding: 5px 0;
+  }
+  .main .ourProcess .container {
+    margin-top: 20px;
+  }
+  .main .ourProcess .container .mainRow .p1 {
+    margin-top: 60px;
+  }
+  .main .ourProcess .container .mainRow .p3 {
+    margin-top: 30px;
+  }
+  .main .ourProcess .container .mainRow img {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  .main .ourProcess .container .mainRow .mail-img {
+    margin-top: 20px;
+  }
+  .main .ourProcess .container .mainRow .sketch {
+    margin-top: 50px;
+  }
+  .main .ourProcess .container .mainRow .logo {
+    margin-top: 20px;
+    height: 80px;
+    width: auto;
+  }
+  .main .ourProcess .container .mainRow .arrow {
+    overflow: visible;
+    display: contents;
+  }
+  .main .reviews .container .card-main {
+    padding: 0px 20px 10px 20px;
+    margin-bottom: 30px;
+  }
+  .main .reviews .container .card-main .testimonials .owl-carousel img {
+    width: 100px;
+  }
+  .main .reviews .container .card-main .testimonials .testimonial {
+    width: 300px;
+    height: 470px;
+  }
+}
+
+@media (min-width: 992px) {
+  .main .features .carousel .carousel-item {
+    height: 50vh;
+  }
+  .main .features .carousel .carousel-item img {
+    padding-top: 100px;
+  }
+  .main .about-us {
+    padding: 32px 0;
+  }
+  .main .ourProcess {
+    padding: 5px 0;
+  }
+  .main .ourProcess .container .row .title {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 10px;
+  }
+  .main .ourProcess .container .row .title h2 {
+    font-family: "Esteban", sans-serif;
+  }
+  .main .ourProcess .container .mainRow .p1 {
+    margin-top: 40px;
+  }
+  .main .ourProcess .container .mainRow .p3 {
+    margin-top: 35px;
+  }
+  .main .ourProcess .container .mainRow img {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  .main .ourProcess .container .mainRow .mail-img {
+    margin-top: 37px;
+  }
+  .main .ourProcess .container .mainRow .logo {
+    margin-top: 60px;
+    height: 80px;
+    width: auto;
+  }
+  .main .ourProcess .container .mainRow .arrow {
+    overflow: visible;
+    display: contents;
+  }
+  .main .reviews .container {
+    margin-top: 36px;
+  }
+  .main .reviews .container .card-main {
+    padding: 0px 30px 20px 30px;
+    margin-bottom: 30px;
+  }
+  .main .reviews .container .card-main .testimonials .owl-carousel img {
+    width: 100px;
+  }
+  .main .reviews .container .card-main .testimonials .testimonial {
+    width: 300px;
+    height: 470px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main .features .carousel .carousel-item {
+    height: 120vh;
+  }
+  .main .features .carousel .carousel-item img {
+    padding-top: 120px;
+  }
+  .main .reviews {
+    padding: 32px 0;
+  }
+  .main .reviews .container {
+    margin-top: 36px;
+  }
+  .main .reviews .container .card-main {
+    padding: 0px 30px 20px 30px;
+    margin-bottom: 30px;
+  }
+  .main .reviews .container .card-main .testimonials .testimonial {
+    width: 355px;
+    height: 455px;
+  }
+}
+
+footer .form-contact {
+  padding: 0px 0 38px 0;
+  border-top: 1px solid black;
+}
+
+footer .form-contact address {
+  text-align: center;
+  padding: 0px 50px;
+  top: 60px;
+}
+
+footer .form-contact address h5 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+footer .form-contact address .address {
+  line-height: 10px;
+  margin-bottom: 50px;
+  font-style: italic;
+}
+
+footer .form-contact address .schedule {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 50px;
+}
+
+footer .form-contact address .schedule span {
+  font-weight: 600;
+  font-style: italic;
+}
+
+footer .form-contact form {
+  padding: 60px 30px 0px 30px;
+}
+
+footer .form-contact form p {
+  margin-bottom: 0;
+  text-align: end;
+  color: #8f0202;
+  font-size: 12px;
+}
+
+footer .form-contact form label {
+  font-weight: 600;
+}
+
+footer .form-contact form span {
+  color: #8f0202;
+}
+
+footer .form-contact form textarea {
+  min-height: 100px;
+}
+
+footer .form-contact .button {
+  text-align: center;
+}
+
+footer .form-contact button {
+  border: 1px solid #74828f;
+  color: #74828f;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+footer .form-contact button:hover {
+  border: 1px solid #74828f;
+  background: #a7bbce;
+  color: #ffffff;
+}
+
+footer .socia-info {
+  border-top: 1px solid #000;
+  padding-top: 10px;
+}
+
+footer .socia-info .logo {
+  text-align: start;
+}
+
+footer .socia-info .logo img {
+  width: 100px;
+}
+
+footer .socia-info .social {
+  text-align: center;
+  padding: 12px 0;
+}
+
+footer .socia-info .social a {
+  padding: 4px;
+  display: inline-block;
+  margin: 0 20px;
+  width: 50px;
+  font-size: 26px;
+  color: #011b1e;
+  border-radius: 10px;
+}
+
+footer .socia-info .social a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+footer .socia-info .social a.facebook:hover {
+  background: #3b5998;
+  color: #ffffff;
+}
+
+footer .socia-info .social a.twitter:hover {
+  background: #1da1f2;
+  color: #ffffff;
+}
+
+footer .socia-info .social a.youtube:hover {
+  background: #ff0000;
+  color: #ffffff;
+}
+
+footer .socia-info .social a.instagram:hover {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  color: #ffffff;
+}
+
+footer .socia-info .copyright {
+  text-align: end;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #000000;
+}
+
+footer .socia-info .copyright a {
+  font-size: 16px;
+  color: #000000;
+}
+
+@media (max-width: 1000px) {
+  footer .form-contact address .schedule {
+    padding: 0px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

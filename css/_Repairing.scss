@@ -1,0 +1,259 @@
+$black: #000000;
+$white: #ffffff;
+$red: #8f0202;
+$button_color: #74828f;
+$border:0px;
+$font-family: 'Esteban', sans-serif;
+
+
+
+    .Repairing-jewelry {
+        padding: 0px ;
+        background: #ffffff;
+        .container {
+            p{
+                font-size: 1 rem;
+            }
+            .title {
+                text-align: center;
+                margin-bottom: 20px;
+                h2 {
+                    font-size: 32px;
+                    font-weight: 400;
+                    line-height: 1.2;
+                    font-family: $font-family;
+                }
+            }
+            
+            .text {
+                p {
+                    text-align: justify;
+                    font-weight: 300;
+                    color: 18px;
+                    span {
+                        font-style: italic;
+                        font-weight: 700;
+                    }
+                }
+            }
+            .a{
+                text-decoration: none;
+            }
+            .button {
+                text-align: center;
+                
+            }
+            button {
+                border: 1px solid $button_color;
+                color: $button_color;
+                transition: 0.3s linear;
+                &:hover {
+                    background: #a7bbce;
+                    color: #ffffff;
+                }
+            }
+            i {
+                margin-left: 10px;
+                font-size: 14px;
+            }
+            .photo {
+                img {
+                    width: 100%;
+                    border-radius: 10px;
+                    max-height: 500px;
+                    margin-bottom:20px;
+                   
+                    
+                }
+            }
+        }
+    } 
+
+
+.our-services {
+    padding: 32px 0;
+    background: #ffffff;
+    .container {
+        .text {
+            .title {
+                text-align: center;
+                margin-bottom: 20px;
+                padding:0px;
+                h2 {
+                    font-size: 32px;
+                    font-weight: 400;
+                    line-height: 1.2;
+                    font-family: $font-family;
+                    
+                }
+            }
+            p {
+                text-align: justify;
+                font-weight: 300;
+                font-size: 1 rem;
+                span {
+                    font-style: italic;
+                    font-weight: 700;
+                }
+            }
+        }
+        .a{
+            text-decoration: none;
+        }
+        .button {
+            text-align: center;
+            margin-bottom:20px;
+        }
+        button {
+            border: 1px solid $button_color;
+            color: $button_color;
+            transition: 0.3s linear;
+            &:hover {
+                background: #a7bbce;
+                color: #ffffff;
+            }
+        }
+        i {
+            margin-left: 10px;
+            font-size: 14px;
+        }
+        .photo {
+            img {
+                width: 100%;
+                border-radius: 10px;
+                max-height: 500px;
+                margin-bottom: 20px;
+            }
+        }
+        .embed-responsive{
+            .embed-responsive-item{
+                border-radius: 10px;
+            }
+        }
+    }
+} 
+// Large devices (desktops, 992px and up)
+@media  (min-width: 992px) { 
+
+    .Repairing-jewelry {
+        padding: 32px 0;
+        background: #ffffff;
+        .container {
+            p{
+                font-size: 1 rem;
+            }
+            .title {
+                text-align: center;
+                margin-bottom: 20px;
+                h2 {
+                    font-size: 32px;
+                    font-weight: 400;
+                    line-height: 1.2;
+                    font-family: $font-family;
+                }
+            }
+            
+            .text {
+                p {
+                    text-align: justify;
+                    font-weight: 300;
+                    color: 18px;
+                    span {
+                        font-style: italic;
+                        font-weight: 700;
+                    }
+                }
+            }
+            .a{
+                text-decoration: none;
+            }
+            .button {
+                text-align: center;
+                
+            }
+            button {
+                border: 1px solid $button_color;
+                color: $button_color;
+                transition: 0.3s linear;
+                &:hover {
+                    background: #a7bbce;
+                    color: #ffffff;
+                }
+            }
+            i {
+                margin-left: 10px;
+                font-size: 14px;
+            }
+            .photo {
+                img {
+                    width: 100%;
+                    border-radius: 10px;
+                    max-height: 500px;
+                    margin-bottom:20px;
+                   
+                    
+                }
+            }
+        }
+    } 
+
+
+.our-services {
+    padding: 32px 0;
+    background: #ffffff;
+    .container {
+        .text {
+            .title {
+                text-align: center;
+                margin-bottom: 20px;
+                padding:0px;
+                h2 {
+                    font-size: 32px;
+                    font-weight: 400;
+                    line-height: 1.2;
+                    font-family: $font-family;
+                    
+                }
+            }
+            p {
+                text-align: justify;
+                font-weight: 300;
+                font-size: 1 rem;
+                span {
+                    font-style: italic;
+                    font-weight: 700;
+                }
+            }
+        }
+        .a{
+            text-decoration: none;
+        }
+        .button {
+            text-align: center;
+            margin-bottom:20px;
+        }
+        button {
+            border: 1px solid $button_color;
+            color: $button_color;
+            transition: 0.3s linear;
+            &:hover {
+                background: #a7bbce;
+                color: #ffffff;
+            }
+        }
+        i {
+            margin-left: 10px;
+            font-size: 14px;
+        }
+        .photo {
+            img {
+                width: 100%;
+                border-radius: 10px;
+                max-height: 500px;
+                margin-bottom: 60px;
+            }
+        }
+    }
+} 
+}
+

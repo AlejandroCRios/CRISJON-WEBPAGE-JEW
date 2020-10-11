@@ -1,0 +1,137 @@
+$black: #000000;
+$white: #ffffff;
+$red: #8f0202;
+$button_color: #74828f;
+$font-family: 'Monserrat', sans-serif;
+
+
+footer {
+    .form-contact {
+        padding: 0px 0 38px 0;
+        border-top: 1px solid black;
+        
+        address {
+            text-align: center;
+            padding: 0px 50px;
+            top: 60px;
+            h5 {
+                font-weight: 600;
+                margin-bottom: 20px;
+            }
+            .address {
+                line-height: 10px;
+                margin-bottom: 50px;
+                font-style: italic;
+            }
+            .schedule {
+                justify-content: space-between;
+                padding: 0 50px;
+                span {
+                    font-weight: 600;
+                    font-style: italic;
+                }
+            }
+        }
+
+        form {
+            padding: 60px 30px 0px 30px;
+            p {
+                margin-bottom: 0;
+                text-align: end;
+                color: $red;
+                font-size: 12px;
+                
+            }
+            label {
+                font-weight: 600;
+            }
+            span {
+                color: $red;
+            }
+            textarea {
+                min-height: 100px;
+            }
+        }
+        .button {
+            text-align: center;
+        }
+        button {
+            border: 1px solid $button_color;
+            color: $button_color;
+            transition: 0.3s linear;
+            &:hover {
+                border: 1px solid $button_color;
+                background: #a7bbce;
+                color: #ffffff;
+            }
+        }
+    }
+
+    .socia-info {
+        border-top: 1px solid #000;
+        padding-top: 10px;
+        
+        .logo {
+            text-align: start;
+            img {
+                width: 100px;
+            }
+        }
+        .social {
+            text-align: center;
+            padding: 12px 0;
+            a {
+                padding: 4px;
+                display: inline-block;
+                margin: 0 20px;
+                width: 50px;
+                font-size: 26px;
+                color: #011b1e;
+                border-radius: 10px;
+                &:hover {
+                    text-decoration: none;
+                    color: $white;
+                }
+                &.facebook:hover {
+                    background: #3b5998;
+                    color: $white;
+                }
+                &.twitter:hover {
+                    background: #1da1f2;
+                    color: $white;
+                }
+                &.youtube:hover {
+                    background: #ff0000;
+                    color: $white;
+                }
+                &.instagram:hover {
+                    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+                    color: $white;
+                }
+            }
+        }
+        .copyright {
+            text-align: end;
+            padding: 10px 0;
+            font-size: 16px;
+            color: $black;
+            a {
+                font-size: 16px;
+                color: $black;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 1000px) {
+    footer {
+        .form-contact {
+            address {
+                .schedule {
+                    padding: 0px;
+                }
+            }
+        }
+    }
+}
